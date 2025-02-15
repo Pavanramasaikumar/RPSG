@@ -1,0 +1,67 @@
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image:url("https://cdn.vectorstock.com/i/500p/18/50/hands-making-rock-paper-scissors-gestures-vector-54311850.jpg");
+    background-position: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1{
+    font-size: 2.5rem;
+}
+.button{
+    margin-top: 40px;
+}
+.button button{
+    font-size: 5em;
+    margin: 0 10px;
+    max-width: 150px;
+    border-radius: 250px;
+    background-color: hsla(180, 100%, 40%);
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+}
+.button button:hover{
+    background-color: hsla(180, 100%, 70%);
+}
+#disp{
+    margin-top: 40px;
+}
+#disp,#disco{
+    font-size: 2.5em;
+}
+#disres{
+    font-size: 3em;
+    margin:20px 0;
+}
+#disps,#discs,#gr{
+    font-size: 3em;
+}
+.greentext,#pscore,#gr{
+    color: green;
+}
+.redtext,#cscore{
+    color: red;
+}
+.bluetext{
+    color: rgb(21, 97, 168);
+}
+#sub{
+    font-size: 2em;
+    margin-top: 20px;
+    background-color: hsl(120, 87%, 40%);
+    border-radius: 20px;
+    padding: 8px 15px;
+    font-weight: bold;
+    border: none;
+    box-shadow: 0 0 10px green,
+                0 0 10px green inset;
+}
+#sub:hover{
+    background-color: hsl(120, 87%, 60%);
+}
+#sub:active{
+    background-color: hsl(120, 87%, 70%);
+}

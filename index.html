@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="https://cdn.vectorstock.com/i/1000v/20/48/initial-sp-letter-logo-design-template-abstract-vector-35582048.jpg">
+    <title>Pavan's Gaming Platform</title>
+</head>
+<body>
+    <h1>Rock-Paper-Scissor Game</h1>
+    <div class="button">
+        <button onclick="playgame('rock')">✊</button>
+        <button onclick="playgame('paper')">✋</button>
+        <button onclick="playgame('scissor')">✌️</button>
+    </div>
+    <div id="disp">Player:</div>
+    <div id="disco">Computer:</div>
+    <div id="disres">Result:</div>
+    <div id="disps">Player Score:
+        <span id="pscore">0</span>
+    </div>
+    <div id="discs">Computer Score:
+        <span id="cscore">0</span>
+    </div>
+    <button onclick="finres()" id="sub">submit</button>
+    <div id="gr"></div>
+    <script src="index.js"></script>
+</body>
+</html>
