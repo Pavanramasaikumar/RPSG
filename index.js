@@ -15,10 +15,11 @@ function playgame(choice){
     }
     else{
         switch(choice){
-            case "rock":
-                result=(comc==="scissor")? "You Win!":"You Lost";
             case "paper":
                 result=(comc==="rock")? "You Win!":"You Lost";
+                break;
+            case "rock":
+                result=(comc==="scissor")? "You Win!":"You Lost";
                 break;
             case "scissor":
                 result=(comc==="paper")? "You Win!":"You Lost";
